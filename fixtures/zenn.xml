@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Zennのトレンド]]></title><description><![CDATA[現在Zennでトレンドとなっている投稿のRSSフィードです]]></description><link>https://zenn.dev</link><image><url>https://zenn.dev/images/logo-only-dark.png</url><title>Zennのトレンド</title><link>https://zenn.dev</link></image><generator>zenn.dev</generator><lastBuildDate>Tue, 21 Mar 2023 12:11:26 GMT</lastBuildDate><atom:link href="https://zenn.dev/feed" rel="self" type="application/rss+xml"/><language><![CDATA[ja]]></language><item><title><![CDATA[令和5年になったのでそろそろUnityでHTTP/3通信したい]]></title><description><![CDATA[Qiita で Unity で HTTP/3 通信してみる記事を書いてから約三年の月日が経過しました。
+Re: C#(Unity)でHTTP/3通信してみる その壱 ～OSSの選定からビルドまで～
+Re: C#(Unity)でHTTP/3通信してみる その弐 ～Windowsでquicheのサンプルを動かしてみる～
+Re: C#(Unity)でHTTP/3通信してみる その参 ～Unityから使ってみる～
+記事を書いていた当時は、「三年後には HTTP/3 の RFC も発行されているだろうし、 Unity のデフォルトの API で HTTP/3 や QUIC 通信できているだろうな」...]]></description><link>https://zenn.dev/takehara_ryo/articles/0b0eb8126054c1</link><guid isPermaLink="true">https://zenn.dev/takehara_ryo/articles/0b0eb8126054c1</guid><pubDate>Tue, 21 Mar 2023 05:25:34 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s---uwp1Im9--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BB%25A4%25E5%2592%258C5%25E5%25B9%25B4%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E3%2581%259D%25E3%2582%258D%25E3%2581%259D%25E3%2582%258DUnity%25E3%2581%25A7HTTP%252F3%25E9%2580%259A%25E4%25BF%25A1%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%25AB%25B9%25E5%258E%259F%25E6%25B6%25BC%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzdjZDE3ZDFiMTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>竹原涼</dc:creator></item><item><title><![CDATA[ティアフォー製車載カメラ「C1」を使ってみました]]></title><description><![CDATA[
+
+ ティアフォー製車載カメラの紹介
+ティア某として（私のTL上で）有名な、自動運転技術を開発しているティアフォーさんの車載カメラ「C1」。
+何故か家の床から生えてきた（サンプル品を特別に一定期間貸与いただきました、謝礼などは受け取っておりません）ので使い方・使用感をレビューしていきます。
+なお、当方は車載カメラの専門家ではないので、あくまで趣味的に動作確認や性能を確認してみたという位置づけになりますので、その点はご了承ください。
+色々試したら随時追記していきます。
+参考にした公式サイトは以下です。
+https://tier4.github.io/camera_docs/usb_conv...]]></description><link>https://zenn.dev/karaage0703/articles/a60e84173428c1</link><guid isPermaLink="true">https://zenn.dev/karaage0703/articles/a60e84173428c1</guid><pubDate>Mon, 20 Mar 2023 16:42:40 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--MbI8UddX--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25A2%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E8%25A3%25BD%25E8%25BB%258A%25E8%25BC%2589%25E3%2582%25AB%25E3%2583%25A1%25E3%2583%25A9%25E3%2580%258CC1%25E3%2580%258D%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:karaage0703%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hDZEtvakJfZXdDTjNCV1Z0WXIteFNIZ0hmRjlXZmt3QzI5c0Y0aXYwPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>karaage0703</dc:creator></item><item><title><![CDATA[ChatGPTをWebフレームワークにしたら、未来が見えた]]></title><description><![CDATA[ChatGPTを文字通りWebフレームワークにしてみました。
+何を言っているかわからないと思うので、次のコードを見てください。
+
+index.ts
+import { initChatGptGenerator } from "gpt-as-api";
+import { Hono } from "hono";
+import { cache } from "hono/cache";
+
+const gpt = initChatGptGenerator(
+  "これからTODOアプリとしてふるまってください。\n今からリクエストを行うので、そのアプリレスポンスを次の指示に従って返却してください。\...]]></description><link>https://zenn.dev/inaridiy/articles/4c5a0da5b0b421</link><guid isPermaLink="true">https://zenn.dev/inaridiy/articles/4c5a0da5b0b421</guid><pubDate>Mon, 20 Mar 2023 15:10:15 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--YSwkABaM--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ChatGPT%25E3%2582%2592Web%25E3%2583%2595%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%25AF%25E3%2583%25BC%25E3%2582%25AF%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E6%259C%25AA%25E6%259D%25A5%25E3%2581%258C%25E8%25A6%258B%25E3%2581%2588%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:inaridiy%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2VlZWUyYTA5OWUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>inaridiy</dc:creator></item><item><title><![CDATA[ChatGPTで、ヤフコメを安心して読めるようにリライトする]]></title><description><![CDATA[Yahoo! ニュースのコメント欄って、読んでいて悲しくなりますよね。
+そこで、 ChatGPT を使って安心して読めるようにリライトしてくれるスクリプトを書きました。
+
+ できあがったもの
+🥶　これが
+
+🤖　一時的にこんな感じになって…
+
+😊　こうなります✨✨✨
+
+
+ コード
+ヤフコメを開いた状態で、コンソールに入れると書き換わります！
+tampermonkey などで自動的に実行されるようにしても良いかもですね◎
+(() =&gt; {
+  const OPEN_AI_API_KEY = "xxxxxxxxxx"; // APIキーを入力
+  const generateSafeTe...]]></description><link>https://zenn.dev/minojiro/articles/b17cbb196cb649</link><guid isPermaLink="true">https://zenn.dev/minojiro/articles/b17cbb196cb649</guid><pubDate>Mon, 20 Mar 2023 13:44:15 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--Tfa0rrhS--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ChatGPT%25E3%2581%25A7%25E3%2580%2581%25E3%2583%25A4%25E3%2583%2595%25E3%2582%25B3%25E3%2583%25A1%25E3%2582%2592%25E5%25AE%2589%25E5%25BF%2583%25E3%2581%2597%25E3%2581%25A6%25E8%25AA%25AD%25E3%2582%2581%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2583%25AA%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2588%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25BF%25E3%2581%25AE%25E3%2581%2598%25E3%2582%258D%25E3%2583%25BC%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzM3YzNkOGFmNjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>みのじろー</dc:creator></item><item><title><![CDATA[個人開発のサービスへ大胆にBigQueryを選定した理由]]></title><description><![CDATA[
+ はじめに
+筆者はVRコウコクというサービスを開発しています。
+これは数あるVRChatのワールドに個人や企業が広告を出稿できるサービスです。
+このサービスでは、DBにGoogle BigQueryを全面採用しています。
+どのようなシーンで使っているというと、ユーザーからの広告へのリクエストをデータベースにアクセスログとして記録する場面です。
+ログはPV数の推移やユーザー属性の解析、広告料の計算などに使われます。
+個人開発のサービスで、Google BigQueryを採用するのは比較的珍しいケースではないでしょうか？
+本記事では、VR広告配信システムにGoogle BigQueryを採...]]></description><link>https://zenn.dev/igz0/articles/8888bbc309f3d6</link><guid isPermaLink="true">https://zenn.dev/igz0/articles/8888bbc309f3d6</guid><pubDate>Mon, 20 Mar 2023 13:21:59 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--1ZAjXrDW--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2581%25B8%25E5%25A4%25A7%25E8%2583%2586%25E3%2581%25ABBigQuery%25E3%2582%2592%25E9%2581%25B8%25E5%25AE%259A%25E3%2581%2597%25E3%2581%259F%25E7%2590%2586%25E7%2594%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2584%25E3%2581%2590%25E3%2581%259E%25E3%2583%25BC%2520%2520%2520%25E6%2597%2585%25E3%2581%2599%25E3%2582%258B%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259E%25E3%2583%25BC%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2YxYWU4MTNkNWMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>いぐぞー ✈️ 旅するプログラマー</dc:creator></item><item><title><![CDATA[ChatGPTにCtrl+Fを覚えさせるアプローチについて]]></title><description><![CDATA[
+ この記事は何
+
+
+Techカテゴリに含まれてこそいるものの、この記事はあくまで理論の側面でアプローチについて語るメモのようなものです。このアプローチに沿ったプロンプトやプログラムを書いてはいるものの、まだ期待通りの挙動をするとは言い難いです。
+なぜ公開したかというと、自分より賢くて素早い誰かが理屈だけを見て代わりにやってくれたりしないか、という期待からです。
+ChatGPT Plus(GPT-4 APIではない)とPythonを使います。
+
+
+ 今回作ったプロンプト
+そういう前提を踏まえ、まだ完成していないプロンプトを掲載します。
+プロンプト(コードブロック記法の関係で```が``に...]]></description><link>https://zenn.dev/qwegat/articles/4fb99ad25f3f36</link><guid isPermaLink="true">https://zenn.dev/qwegat/articles/4fb99ad25f3f36</guid><pubDate>Mon, 20 Mar 2023 12:34:20 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--dYz9jGbL--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ChatGPT%25E3%2581%25ABCtrl%252BF%25E3%2582%2592%25E8%25A6%259A%25E3%2581%2588%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%2581%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%2584%25E3%2581%25A6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:qwegat%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2Y5NzlhNzAzZjMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>qwegat</dc:creator></item><item><title><![CDATA[個人開発アプリ数年運用している人はみんな知っている真実 8選]]></title><description><![CDATA[こんにちは。個人開発アプリで食べている、あたか、です。
+個人開発数年運用している人はみんな知っている真実を、共有します。
+これからチャレンジする人の参考に、ドウゾ。
+
+ 1. iPhoneユーザーはAndroidユーザーより金払いが良い
+iPhoneユーザーの方がどんどん課金してくれます。
+Androidユーザーは、文句は多いけど、お金は払ってくれません。
+
+ 2. Androidの方がeCPM(広告1000回表示あたりの収益)が高い
+iOSはiOS14あたりから広告で個人情報を取れなくする規制を開始したためか、iOSの方がeCPM(広告1000回表示あたりの収益)が低めです。
+ただ、A...]]></description><link>https://zenn.dev/ataka/articles/3d992f517c9f23</link><guid isPermaLink="true">https://zenn.dev/ataka/articles/3d992f517c9f23</guid><pubDate>Mon, 20 Mar 2023 11:31:15 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--dwPB0cy4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E6%2595%25B0%25E5%25B9%25B4%25E9%2581%258B%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E4%25BA%25BA%25E3%2581%25AF%25E3%2581%25BF%25E3%2582%2593%25E3%2581%25AA%25E7%259F%25A5%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E7%259C%259F%25E5%25AE%259F%25208%25E9%2581%25B8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2582%25E3%2581%259F%25E3%2581%258B%2520%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2Q5YTg1OTgwNTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>あたか🍄</dc:creator></item><item><title><![CDATA[ChatGPT (GPT-4) API と AWS Amplify で会話履歴と文脈を読んで回答する LINE ボット を作る]]></title><description><![CDATA[こんにちわ。 ZUMA です。
+日本時間 3/15 に OpenAI から ChatGPT の最新チャットボット AI である GPT-4 が公開されました。
+筆者は GPT-4 API 利用申請をしていた為、3/18 から GPT-4 API の β 版が利用可能になりました。
+以下 GPT-4 モデル仕様です。
+https://platform.openai.com/docs/models/gpt-4
+ChatGPT に翻訳して貰いました。
+
+GPT-4 は、テキスト入力からテキスト出力を生成する大規模な多モーダルモデルで、将来的には画像入力も受け付ける予定です。
+GPT-4 は、広...]]></description><link>https://zenn.dev/zuma_lab/articles/gpt-4-line-chatbot</link><guid isPermaLink="true">https://zenn.dev/zuma_lab/articles/gpt-4-line-chatbot</guid><pubDate>Mon, 20 Mar 2023 10:18:12 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--6AXdDFYC--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ChatGPT%2520%2528GPT-4%2529%2520API%2520%25E3%2581%25A8%2520AWS%2520Amplify%2520%25E3%2581%25A7%25E4%25BC%259A%25E8%25A9%25B1%25E5%25B1%25A5%25E6%25AD%25B4%25E3%2581%25A8%25E6%2596%2587%25E8%2584%2588%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2593%25E3%2581%25A7%25E5%259B%259E%25E7%25AD%2594%25E3%2581%2599%25E3%2582%258B%2520LINE%2520%25E3%2583%259C...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ZUMA%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2o4UGNQSXBZNFlfQ2ZyNnNKTG9EcExtcHBpQUctWm5vNmNIaU9kPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>ZUMA</dc:creator></item><item><title><![CDATA[cat コマンド代替の Go 製 CLI 「gat」の紹介]]></title><description><![CDATA[cat コマンド代替の Go 製コマンドラインツールである gat を作りました。
+https://github.com/koki-develop/gat
+gat を使うとファイルの内容をシンタックスハイライトつきで出力することができます。
+
+この記事では gat の使い方についてまとめます。
+
+インストール
+使い方
+仕組み
+
+
+ インストール
+Homebrew を使用している場合は brew install を使用してインストールできます。
+$ brew install koki-develop/tap/gat
+もしくは、 gat は Go で作られているため go install を...]]></description><link>https://zenn.dev/kou_pg_0131/articles/gat-introduction</link><guid isPermaLink="true">https://zenn.dev/kou_pg_0131/articles/gat-introduction</guid><pubDate>Mon, 20 Mar 2023 10:10:50 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--1JpbZyDv--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:cat%2520%25E3%2582%25B3%25E3%2583%259E%25E3%2583%25B3%25E3%2583%2589%25E4%25BB%25A3%25E6%259B%25BF%25E3%2581%25AE%2520Go%2520%25E8%25A3%25BD%2520CLI%2520%25E3%2580%258Cgat%25E3%2580%258D%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:koki%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2hiNFlHemhPbVVNRThrZjV5Z01DakFoOWsxeEtCTzRLdWdVMExDQWc9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>koki</dc:creator></item><item><title><![CDATA[dotfiles自慢大会を開催しました]]></title><description><![CDATA[こんにちは！開発部の冨永です。
+SODAでは毎週月曜日にエンジニアの勉強会を行っており、今回先日行った dotfiles自慢大会の開催レポートをお届けします。
+SODAのエンジニア勉強会についての紹介はこちら
+https://zenn.dev/team_soda/articles/741ae0c891c521
+会社やエンジニア組織に関する情報は以下リンクはこちら
+https://recruit.soda-inc.jp/
+https://recruit.soda-inc.jp/engineer
+
+ タイムテーブル
+var unixToInternal int64 = (1969*365 +...]]></description><link>https://zenn.dev/team_soda/articles/1a8416bf4c12b4</link><guid isPermaLink="true">https://zenn.dev/team_soda/articles/1a8416bf4c12b4</guid><pubDate>Mon, 20 Mar 2023 09:30:00 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--Eao2tWPC--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:dotfiles%25E8%2587%25AA%25E6%2585%25A2%25E5%25A4%25A7%25E4%25BC%259A%25E3%2582%2592%25E9%2596%258B%25E5%2582%25AC%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:SODA%2520Engineering%2520Blog%2Cx_220%2Cy_135/g_south_west%2Cl_text:notosansjp-medium.otf_34:SODA%2520Engineers%2Cx_220%2Cy_84/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2NmYTM5ODQ3MWIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_82/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzZkZjc1Yzg1MTQuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_64/og-base.png" length="0" type="image/png"/><dc:creator>SODA Engineers</dc:creator></item><item><title><![CDATA[ChatGPTのプロンプトをLispで書く]]></title><description><![CDATA[ChatGPTのプロンプトをLispで書けることに気づきました。プロンプトによって処理系としてふるまってもらうという話は聞いたことがありましたが、Lispの場合はそのようなプロンプトがなくても解釈されました。
+
+ 例
+モデルはGPT-4です。言語としてはClojureをベースにした擬似コードを書いています。
+
+ 子供っぽくする
+
+
+ 静かなヤンデレっぽくする
+
+(しっぽりやんでれ？)
+
+ 対偶を返す
+
+
+ 小説を作ってそれを要約する
+
+
+ 3つの文を元気にする
+
+
+ Lispについて執事っぽく説明する
+
+
+ 犬の名前を5個生成してひらがなにする
+
+
+ クラムチャウダーのレシピを妹として箇...]]></description><link>https://zenn.dev/u_u/articles/54902c757ffce5</link><guid isPermaLink="true">https://zenn.dev/u_u/articles/54902c757ffce5</guid><pubDate>Mon, 20 Mar 2023 03:16:50 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--FsYq2qBm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ChatGPT%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2597%25E3%2583%2588%25E3%2582%2592Lisp%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:u_u%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUdObXl4WlNwX0k5Y2h1SVh4QkdyWC1mRkN2dXFSTm9wTktGS05HbE12VXk9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>u_u</dc:creator></item><item><title><![CDATA[iOS でも Web Push が送れる！microCMS と Firebase Cloud Messaging を使った実装方法]]></title><description><![CDATA[お初にお目にかかります(？)
+chot Inc. で Web エンジニアをしているすてぃんです。
+もう 1 ヶ月前ですが iOS Safari でプッシュ通知に対応したバージョンのベータ版が発表されましたね。
+https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/
+Web のプッシュ通知は、シェアの大きい iOS が対応してくれなかったのであまり実用的ではありませんでしたが、これからは Web でも多くのユーザーに能動的に新着情報を伝えることができるようになります。
+本記事では Firebase Clo...]]></description><link>https://zenn.dev/chot/articles/web-push-with-microcms-and-fcm</link><guid isPermaLink="true">https://zenn.dev/chot/articles/web-push-with-microcms-and-fcm</guid><pubDate>Mon, 20 Mar 2023 02:43:49 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--txENAlHr--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:iOS%2520%25E3%2581%25A7%25E3%2582%2582%2520Web%2520Push%2520%25E3%2581%258C%25E9%2580%2581%25E3%2582%258C%25E3%2582%258B%25EF%25BC%2581microCMS%2520%25E3%2581%25A8%2520Firebase%2520Cloud%2520Messaging%2520...%2Cw_1010%2Cx_90%2Cy_100/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:chot%2520Inc.%2520tech%2520blog%2Cx_220%2Cy_135/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%2599%25E3%2581%25A6%25E3%2581%2583%25E3%2582%2593.tsx%2Cx_220%2Cy_84/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzAzODVjOWFlYzkuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_82/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzIzMTEyZmJmM2MuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_64/og-base.png" length="0" type="image/png"/><dc:creator>すてぃん.tsx</dc:creator></item><item><title><![CDATA[フロントエンドテスト、モジュールモックでStorybookのインタラクションテストの開発コストを下げる]]></title><description><![CDATA[
+ Storybook のインタラクションテストのコストを下げる
+Storybook を使用すると、ブラウザ上で動作を確認しながらテストコードを記述できるため、生の Jest よりも開発が容易になります。ただし、Storybook には Jest にある重要な機能である jest.mock がないという欠点があります。jest.mock は、テスト対象のコンポーネントがインポートしているモジュールをフックして、簡単にモックを作成することができますが、Storybook ではこの機能は使用できません。ビルド時に他のファイルへの干渉が防止されてしまいます。
+この問題を解決するために、以下の ...]]></description><link>https://zenn.dev/sora_kumo/articles/43f399cc73c0f3</link><guid isPermaLink="true">https://zenn.dev/sora_kumo/articles/43f399cc73c0f3</guid><pubDate>Mon, 20 Mar 2023 00:12:54 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--FSonQTaL--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2580%2581%25E3%2583%25A2%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25AB%25E3%2583%25A2%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25A7Storybook%25E3%2581%25AE%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%25BF%25E3%2583%25A9%25E3%2582%25AF%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E3%2582%25B3%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E4%25B8%258B%25E3%2581%2592%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%25A9%25BA%25E9%259B%25B2%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2VlZTgzMDYyMDQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>空雲</dc:creator></item><item><title><![CDATA[GPT4で自分の疑似人格を召喚してブログ記事を書いてもらう(ことで時間を浮かす)試み | Offers Tech Blog]]></title><description><![CDATA[
+
+
+
+
+こんにちは、プロダクト開発人材の副業転職プラットフォーム Offers を運営する株式会社 overflow CTO の大谷旅人です。
+さて、今回は表題の通り GPT4 様を駆使して自分の疑似人格を召喚して記事を書く試みを繰り広げます。
+ブログの番が回ってきたものの、CTO 業しながら社内コミットランキングで 1,2 位を争うくらい(今月は)コード書いているため時間無い中での苦肉の策。
+
+ 【AD】CTOWeek 2023 by Offers
+(このセクションは 2023/03 頃まで限定のご案内です)
+開発組織のあり方について考える1ヶ月として、あらゆる業界でリードされてきた...]]></description><link>https://zenn.dev/offers/articles/20230320-gpt4-gen-self</link><guid isPermaLink="true">https://zenn.dev/offers/articles/20230320-gpt4-gen-self</guid><pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--M2ds9zMo--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GPT4%25E3%2581%25A7%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E7%2596%2591%25E4%25BC%25BC%25E4%25BA%25BA%25E6%25A0%25BC%25E3%2582%2592%25E5%258F%25AC%25E5%2596%259A%25E3%2581%2597%25E3%2581%25A6%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%25E8%25A8%2598%25E4%25BA%258B%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%25A6%25E3%2582%2582%25E3%2582%2589%25E3%2581%2586%2528%25E3%2581%2593%25E3%2581%25A8%25E3%2581%25A7%25E6%2599%2582%25E9%2596%2593%25E3%2582%2592%25E6%25B5%25AE%25E3%2581%258B%25E3%2581%2599%2529%25E8%25A9%25A6%25E3%2581%25BF%2520%257C%2520Offers%2520Tech%2520...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Offers%2520Tech%2520Blog%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzI5M2JkNDdjMDIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>Offers Tech Blog</dc:creator></item><item><title><![CDATA[Go言語 deferの理解を確認する基本問題3選]]></title><description><![CDATA[
+ 概要
+Go言語のdeferの挙動や仕様を確認する簡単なコードを紹介します。
+初心者の方は勉強のために、中級者の方は理解の確認のために解いてみてください。
+
+ 問題
+それぞれ、コンソールに表示される文字列を考えてみてください。
+
+ 問題１
+func funcX(s string) {
+	fmt.Print(s)
+}
+func funcY(s string) func() {
+	fmt.Print(s)
+	return func() { fmt.Print("Y") }
+}
+func main() {
+	s := "A"
+	defer funcX(s)
+	s = "B"
+	defer f...]]></description><link>https://zenn.dev/kasa/articles/golang-defer</link><guid isPermaLink="true">https://zenn.dev/kasa/articles/golang-defer</guid><pubDate>Sun, 19 Mar 2023 22:00:00 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--y7rs0m5_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Go%25E8%25A8%2580%25E8%25AA%259E%2520defer%25E3%2581%25AE%25E7%2590%2586%25E8%25A7%25A3%25E3%2582%2592%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E5%259F%25BA%25E6%259C%25AC%25E5%2595%258F%25E9%25A1%258C3%25E9%2581%25B8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kasa%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzg0OTlmN2E0NTQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>kasa</dc:creator></item><item><title><![CDATA[大塚流フロントエンド開発の歩き方]]></title><description><![CDATA[フロントエンド開発は考えることが多い。とくに 0 -&gt; 1 の場合だと、何からはじめたらいいのか？が全然わからず、途方にくれてしまうこともあるでしょう。実際、ぼくがそうでした。
+そして、そういった情報はなかなか検索しても出てこない。設計方法や実装方法みたいなものはたくさんあるのに。なので、書いてみました。
+これは、ぼくがいくつかのフロントエンド開発を経て「これを最初に知っていれば、もうちょっとうまくできたかも？あの失敗がなかったかも？？」をまとめたものです。
+フロントエンド開発に不慣れな方の参考になれば、これ幸いです。
+
+ まずは仕事のゴールを確認する
+プロジェクトや各フェーズごと...]]></description><link>https://zenn.dev/yumemi_inc/articles/walking-on-the-front-end</link><guid isPermaLink="true">https://zenn.dev/yumemi_inc/articles/walking-on-the-front-end</guid><pubDate>Sun, 19 Mar 2023 10:48:07 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--RFZOMZYF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25A4%25A7%25E5%25A1%259A%25E6%25B5%2581%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AE%25E6%25AD%25A9%25E3%2581%258D%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%2586%25E3%2582%2581%25E3%2581%25BF%2Cx_220%2Cy_135/g_south_west%2Cl_text:notosansjp-medium.otf_34:otsukayuhi%2Cx_220%2Cy_84/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2U2MzAxMTgwMzUuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_82/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzMwNTA3ZmMwYjIuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_64/og-base.png" length="0" type="image/png"/><dc:creator>otsukayuhi</dc:creator></item><item><title><![CDATA[ChatGPTにゆっくり解説やらせたらヤバかった]]></title><description><![CDATA[ChatGPT-4が公開されたので遊んでたところこれゆっくり解説できるんじゃね...?となったのでやってみました。
+
+ 実際にできたもの
+実際AIに台本を書いてもらい、編集した動画がこちらです。
+チャンネル自体全然動かしてないこともあって本編のみ公開しても再生されないと思ったので本編と対になるショート動画も制作しました。
+
+short
+
+https://www.youtube.com/watch?v=vHkfJAstxf4
+
+long
+
+https://www.youtube.com/watch?v=I52hIVutzg8
+このクオリティーの台本をAIがサクッと作ってくれるってすごい時代...]]></description><link>https://zenn.dev/moons/articles/313e72ae668729</link><guid isPermaLink="true">https://zenn.dev/moons/articles/313e72ae668729</guid><pubDate>Sun, 19 Mar 2023 07:44:58 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--B-e03TZ4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ChatGPT%25E3%2581%25AB%25E3%2582%2586%25E3%2581%25A3%25E3%2581%258F%25E3%2582%258A%25E8%25A7%25A3%25E8%25AA%25AC%25E3%2582%2584%25E3%2582%2589%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2583%25A4%25E3%2583%2590%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2580%25E3%2583%25BC%25E3%2582%2593%25E3%2581%259A%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzgxOTU4MzlhM2YuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>むーんず</dc:creator></item><item><title><![CDATA[ChatGPTとGPT-4にかな漢字変換させてみた]]></title><description><![CDATA[かな漢字変換は、日本語入力の最も重要な機能です。日本語自然言語処理で最も広く実用されているプロダクトの1つでありながら、その進化は翻訳AIや対話AIの進化と比べて鈍足です。
+そこで、ChatGPTとGPT-4にかな漢字変換をやらせてみてみました。
+性能の評価のため、比較的長い一文を用意しました。
+
+ようしょうきからてにすすいえいやきゅうしょうりんじけんぽうなどさまざまなすぽーつをけいけんしながらそだちしょうがっこうじだいはろさんぜるすきんこうにたいざいしておりごるふやてにすをならっていた
+幼少期からテニス水泳野球少林寺拳法など様々なスポーツを経験しながら育ち小学校時代はロサンゼルス近郊に...]]></description><link>https://zenn.dev/azookey/articles/6b405c7d63fc6d</link><guid isPermaLink="true">https://zenn.dev/azookey/articles/6b405c7d63fc6d</guid><pubDate>Sun, 19 Mar 2023 06:32:58 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--FDf1DwmV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ChatGPT%25E3%2581%25A8GPT-4%25E3%2581%25AB%25E3%2581%258B%25E3%2581%25AA%25E6%25BC%25A2%25E5%25AD%2597%25E5%25A4%2589%25E6%258F%259B%25E3%2581%2595%25E3%2581%259B%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:azooKey%2520blogs%2Cx_220%2Cy_135/g_south_west%2Cl_text:notosansjp-medium.otf_34:ensan%2Cx_220%2Cy_84/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzRmOTgwNWI4OGIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_82/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzkyNDQ4NzBlMTUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_64/og-base.png" length="0" type="image/png"/><dc:creator>ensan</dc:creator></item><item><title><![CDATA[ChatGPT/GPTでTypeScriptを逐次実行させる]]></title><description><![CDATA[ChatGPTやその中身であるGPT-3.5などには、プログラムを逐次実行する能力があります。
+あなたはTypeScriptシミュレータです。step by stepでコードをシミュレートし、実行結果を出力してください。
+
+```ts
+const hoge = "hoge";
+
+const hello = (...args: string[]) =&gt; `hello, ${args.join(" ")}`;
+
+hello(hoge, "world");
+```
+これだけのシンプルなプロンプトで、解説を交えて逐次実行した結果を出力してくれます。もちろんTypeScriptだけではなくて...]]></description><link>https://zenn.dev/erukiti/articles/gpt-run-typescript</link><guid isPermaLink="true">https://zenn.dev/erukiti/articles/gpt-run-typescript</guid><pubDate>Sun, 19 Mar 2023 02:00:15 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--S1q7s0mG--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ChatGPT%252FGPT%25E3%2581%25A7TypeScript%25E3%2582%2592%25E9%2580%2590%25E6%25AC%25A1%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:erukiti%2Cx_203%2Cy_98/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lEV1RMb1hESUIxeEVVYkdtY3RqWW1KbVhjU0hfeU1kTzhJUGVCPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_72/og-base.png" length="0" type="image/png"/><dc:creator>erukiti</dc:creator></item><item><title><![CDATA[レビューコメントにメタ情報を持たせよう]]></title><description><![CDATA[
+ はじめに
+レビューコメントにメタ情報を持たせるためにラベルバッジをつけるということをやっています。
+以下の記事を参考に真似し始めました。
+プルリクエストへのコメントでは Text Blaze でラベルバッジをつけよう！
+やってみて、自分にあった表現に見直したのでその紹介です。（カラーコードも見直しています）
+Text Blaze の利用手順は上の記事で詳しく紹介されているのでここではしません。
+レビューコメントにメタ情報を含めるのは、コメントを読む側はもちろん、コメントをする時点で、どういったリアクションを期待するのか、これは修正必須なのか、それともそうではないのか、期待する内容が曖...]]></description><link>https://zenn.dev/yumemi_inc/articles/review-badge</link><guid isPermaLink="true">https://zenn.dev/yumemi_inc/articles/review-badge</guid><pubDate>Sat, 18 Mar 2023 13:15:39 GMT</pubDate><enclosure url="https://res.cloudinary.com/zenn/image/upload/s--cxdaeJ-o--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%25B3%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E3%2583%25A1%25E3%2582%25BF%25E6%2583%2585%25E5%25A0%25B1%25E3%2582%2592%25E6%258C%2581%25E3%2581%259F%25E3%2581%259B%25E3%2582%2588%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%2586%25E3%2582%2581%25E3%2581%25BF%2Cx_220%2Cy_135/g_south_west%2Cl_text:notosansjp-medium.otf_34:ykws%2Cx_220%2Cy_84/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2U2MzAxMTgwMzUuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_82/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2Y0M2I0Mzk2NzIuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_64/og-base.png" length="0" type="image/png"/><dc:creator>ykws</dc:creator></item></channel></rss>

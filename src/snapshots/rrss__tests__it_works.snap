@@ -1,0 +1,126 @@
+---
+source: src/lib.rs
+expression: json
+---
+[
+  {
+    "title": "令和5年になったのでそろそろUnityでHTTP/3通信したい",
+    "link": "https://zenn.dev/takehara_ryo/articles/0b0eb8126054c1",
+    "description": "Qiita で Unity で HTTP/3 通信してみる記事を書いてから約三年の月日が経過しました。\nRe: C#(Unity)でHTTP/3通信してみる その壱 ～OSSの選定からビルドまで～\nRe: C#(Unity)でHTTP/3通信してみる その弐 ～Windowsでquicheのサンプルを動かしてみる～\nRe: C#(Unity)でHTTP/3通信してみる その参 ～Unityから使ってみる～\n記事を書いていた当時は、「三年後には HTTP/3 の RFC も発行されているだろうし、 Unity のデフォルトの API で HTTP/3 や QUIC 通信できているだろうな」...",
+    "author": ""
+  },
+  {
+    "title": "ティアフォー製車載カメラ「C1」を使ってみました",
+    "link": "https://zenn.dev/karaage0703/articles/a60e84173428c1",
+    "description": "\n\n ティアフォー製車載カメラの紹介\nティア某として（私のTL上で）有名な、自動運転技術を開発しているティアフォーさんの車載カメラ「C1」。\n何故か家の床から生えてきた（サンプル品を特別に一定期間貸与いただきました、謝礼などは受け取っておりません）ので使い方・使用感をレビューしていきます。\nなお、当方は車載カメラの専門家ではないので、あくまで趣味的に動作確認や性能を確認してみたという位置づけになりますので、その点はご了承ください。\n色々試したら随時追記していきます。\n参考にした公式サイトは以下です。\nhttps://tier4.github.io/camera_docs/usb_conv...",
+    "author": ""
+  },
+  {
+    "title": "ChatGPTをWebフレームワークにしたら、未来が見えた",
+    "link": "https://zenn.dev/inaridiy/articles/4c5a0da5b0b421",
+    "description": "ChatGPTを文字通りWebフレームワークにしてみました。\n何を言っているかわからないと思うので、次のコードを見てください。\n\nindex.ts\nimport { initChatGptGenerator } from \"gpt-as-api\";\nimport { Hono } from \"hono\";\nimport { cache } from \"hono/cache\";\n\nconst gpt = initChatGptGenerator(\n  \"これからTODOアプリとしてふるまってください。\\n今からリクエストを行うので、そのアプリレスポンスを次の指示に従って返却してください。\\...",
+    "author": ""
+  },
+  {
+    "title": "ChatGPTで、ヤフコメを安心して読めるようにリライトする",
+    "link": "https://zenn.dev/minojiro/articles/b17cbb196cb649",
+    "description": "Yahoo! ニュースのコメント欄って、読んでいて悲しくなりますよね。\nそこで、 ChatGPT を使って安心して読めるようにリライトしてくれるスクリプトを書きました。\n\n できあがったもの\n🥶　これが\n\n🤖　一時的にこんな感じになって…\n\n😊　こうなります✨✨✨\n\n\n コード\nヤフコメを開いた状態で、コンソールに入れると書き換わります！\ntampermonkey などで自動的に実行されるようにしても良いかもですね◎\n(() =&gt; {\n  const OPEN_AI_API_KEY = \"xxxxxxxxxx\"; // APIキーを入力\n  const generateSafeTe...",
+    "author": ""
+  },
+  {
+    "title": "個人開発のサービスへ大胆にBigQueryを選定した理由",
+    "link": "https://zenn.dev/igz0/articles/8888bbc309f3d6",
+    "description": "\n はじめに\n筆者はVRコウコクというサービスを開発しています。\nこれは数あるVRChatのワールドに個人や企業が広告を出稿できるサービスです。\nこのサービスでは、DBにGoogle BigQueryを全面採用しています。\nどのようなシーンで使っているというと、ユーザーからの広告へのリクエストをデータベースにアクセスログとして記録する場面です。\nログはPV数の推移やユーザー属性の解析、広告料の計算などに使われます。\n個人開発のサービスで、Google BigQueryを採用するのは比較的珍しいケースではないでしょうか？\n本記事では、VR広告配信システムにGoogle BigQueryを採...",
+    "author": ""
+  },
+  {
+    "title": "ChatGPTにCtrl+Fを覚えさせるアプローチについて",
+    "link": "https://zenn.dev/qwegat/articles/4fb99ad25f3f36",
+    "description": "\n この記事は何\n\n\nTechカテゴリに含まれてこそいるものの、この記事はあくまで理論の側面でアプローチについて語るメモのようなものです。このアプローチに沿ったプロンプトやプログラムを書いてはいるものの、まだ期待通りの挙動をするとは言い難いです。\nなぜ公開したかというと、自分より賢くて素早い誰かが理屈だけを見て代わりにやってくれたりしないか、という期待からです。\nChatGPT Plus(GPT-4 APIではない)とPythonを使います。\n\n\n 今回作ったプロンプト\nそういう前提を踏まえ、まだ完成していないプロンプトを掲載します。\nプロンプト(コードブロック記法の関係で```が``に...",
+    "author": ""
+  },
+  {
+    "title": "個人開発アプリ数年運用している人はみんな知っている真実 8選",
+    "link": "https://zenn.dev/ataka/articles/3d992f517c9f23",
+    "description": "こんにちは。個人開発アプリで食べている、あたか、です。\n個人開発数年運用している人はみんな知っている真実を、共有します。\nこれからチャレンジする人の参考に、ドウゾ。\n\n 1. iPhoneユーザーはAndroidユーザーより金払いが良い\niPhoneユーザーの方がどんどん課金してくれます。\nAndroidユーザーは、文句は多いけど、お金は払ってくれません。\n\n 2. Androidの方がeCPM(広告1000回表示あたりの収益)が高い\niOSはiOS14あたりから広告で個人情報を取れなくする規制を開始したためか、iOSの方がeCPM(広告1000回表示あたりの収益)が低めです。\nただ、A...",
+    "author": ""
+  },
+  {
+    "title": "ChatGPT (GPT-4) API と AWS Amplify で会話履歴と文脈を読んで回答する LINE ボット を作る",
+    "link": "https://zenn.dev/zuma_lab/articles/gpt-4-line-chatbot",
+    "description": "こんにちわ。 ZUMA です。\n日本時間 3/15 に OpenAI から ChatGPT の最新チャットボット AI である GPT-4 が公開されました。\n筆者は GPT-4 API 利用申請をしていた為、3/18 から GPT-4 API の β 版が利用可能になりました。\n以下 GPT-4 モデル仕様です。\nhttps://platform.openai.com/docs/models/gpt-4\nChatGPT に翻訳して貰いました。\n\nGPT-4 は、テキスト入力からテキスト出力を生成する大規模な多モーダルモデルで、将来的には画像入力も受け付ける予定です。\nGPT-4 は、広...",
+    "author": ""
+  },
+  {
+    "title": "cat コマンド代替の Go 製 CLI 「gat」の紹介",
+    "link": "https://zenn.dev/kou_pg_0131/articles/gat-introduction",
+    "description": "cat コマンド代替の Go 製コマンドラインツールである gat を作りました。\nhttps://github.com/koki-develop/gat\ngat を使うとファイルの内容をシンタックスハイライトつきで出力することができます。\n\nこの記事では gat の使い方についてまとめます。\n\nインストール\n使い方\n仕組み\n\n\n インストール\nHomebrew を使用している場合は brew install を使用してインストールできます。\n$ brew install koki-develop/tap/gat\nもしくは、 gat は Go で作られているため go install を...",
+    "author": ""
+  },
+  {
+    "title": "dotfiles自慢大会を開催しました",
+    "link": "https://zenn.dev/team_soda/articles/1a8416bf4c12b4",
+    "description": "こんにちは！開発部の冨永です。\nSODAでは毎週月曜日にエンジニアの勉強会を行っており、今回先日行った dotfiles自慢大会の開催レポートをお届けします。\nSODAのエンジニア勉強会についての紹介はこちら\nhttps://zenn.dev/team_soda/articles/741ae0c891c521\n会社やエンジニア組織に関する情報は以下リンクはこちら\nhttps://recruit.soda-inc.jp/\nhttps://recruit.soda-inc.jp/engineer\n\n タイムテーブル\nvar unixToInternal int64 = (1969*365 +...",
+    "author": ""
+  },
+  {
+    "title": "ChatGPTのプロンプトをLispで書く",
+    "link": "https://zenn.dev/u_u/articles/54902c757ffce5",
+    "description": "ChatGPTのプロンプトをLispで書けることに気づきました。プロンプトによって処理系としてふるまってもらうという話は聞いたことがありましたが、Lispの場合はそのようなプロンプトがなくても解釈されました。\n\n 例\nモデルはGPT-4です。言語としてはClojureをベースにした擬似コードを書いています。\n\n 子供っぽくする\n\n\n 静かなヤンデレっぽくする\n\n(しっぽりやんでれ？)\n\n 対偶を返す\n\n\n 小説を作ってそれを要約する\n\n\n 3つの文を元気にする\n\n\n Lispについて執事っぽく説明する\n\n\n 犬の名前を5個生成してひらがなにする\n\n\n クラムチャウダーのレシピを妹として箇...",
+    "author": ""
+  },
+  {
+    "title": "iOS でも Web Push が送れる！microCMS と Firebase Cloud Messaging を使った実装方法",
+    "link": "https://zenn.dev/chot/articles/web-push-with-microcms-and-fcm",
+    "description": "お初にお目にかかります(？)\nchot Inc. で Web エンジニアをしているすてぃんです。\nもう 1 ヶ月前ですが iOS Safari でプッシュ通知に対応したバージョンのベータ版が発表されましたね。\nhttps://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/\nWeb のプッシュ通知は、シェアの大きい iOS が対応してくれなかったのであまり実用的ではありませんでしたが、これからは Web でも多くのユーザーに能動的に新着情報を伝えることができるようになります。\n本記事では Firebase Clo...",
+    "author": ""
+  },
+  {
+    "title": "フロントエンドテスト、モジュールモックでStorybookのインタラクションテストの開発コストを下げる",
+    "link": "https://zenn.dev/sora_kumo/articles/43f399cc73c0f3",
+    "description": "\n Storybook のインタラクションテストのコストを下げる\nStorybook を使用すると、ブラウザ上で動作を確認しながらテストコードを記述できるため、生の Jest よりも開発が容易になります。ただし、Storybook には Jest にある重要な機能である jest.mock がないという欠点があります。jest.mock は、テスト対象のコンポーネントがインポートしているモジュールをフックして、簡単にモックを作成することができますが、Storybook ではこの機能は使用できません。ビルド時に他のファイルへの干渉が防止されてしまいます。\nこの問題を解決するために、以下の ...",
+    "author": ""
+  },
+  {
+    "title": "GPT4で自分の疑似人格を召喚してブログ記事を書いてもらう(ことで時間を浮かす)試み | Offers Tech Blog",
+    "link": "https://zenn.dev/offers/articles/20230320-gpt4-gen-self",
+    "description": "\n\n\n\n\nこんにちは、プロダクト開発人材の副業転職プラットフォーム Offers を運営する株式会社 overflow CTO の大谷旅人です。\nさて、今回は表題の通り GPT4 様を駆使して自分の疑似人格を召喚して記事を書く試みを繰り広げます。\nブログの番が回ってきたものの、CTO 業しながら社内コミットランキングで 1,2 位を争うくらい(今月は)コード書いているため時間無い中での苦肉の策。\n\n 【AD】CTOWeek 2023 by Offers\n(このセクションは 2023/03 頃まで限定のご案内です)\n開発組織のあり方について考える1ヶ月として、あらゆる業界でリードされてきた...",
+    "author": ""
+  },
+  {
+    "title": "Go言語 deferの理解を確認する基本問題3選",
+    "link": "https://zenn.dev/kasa/articles/golang-defer",
+    "description": "\n 概要\nGo言語のdeferの挙動や仕様を確認する簡単なコードを紹介します。\n初心者の方は勉強のために、中級者の方は理解の確認のために解いてみてください。\n\n 問題\nそれぞれ、コンソールに表示される文字列を考えてみてください。\n\n 問題１\nfunc funcX(s string) {\n\tfmt.Print(s)\n}\nfunc funcY(s string) func() {\n\tfmt.Print(s)\n\treturn func() { fmt.Print(\"Y\") }\n}\nfunc main() {\n\ts := \"A\"\n\tdefer funcX(s)\n\ts = \"B\"\n\tdefer f...",
+    "author": ""
+  },
+  {
+    "title": "大塚流フロントエンド開発の歩き方",
+    "link": "https://zenn.dev/yumemi_inc/articles/walking-on-the-front-end",
+    "description": "フロントエンド開発は考えることが多い。とくに 0 -&gt; 1 の場合だと、何からはじめたらいいのか？が全然わからず、途方にくれてしまうこともあるでしょう。実際、ぼくがそうでした。\nそして、そういった情報はなかなか検索しても出てこない。設計方法や実装方法みたいなものはたくさんあるのに。なので、書いてみました。\nこれは、ぼくがいくつかのフロントエンド開発を経て「これを最初に知っていれば、もうちょっとうまくできたかも？あの失敗がなかったかも？？」をまとめたものです。\nフロントエンド開発に不慣れな方の参考になれば、これ幸いです。\n\n まずは仕事のゴールを確認する\nプロジェクトや各フェーズごと...",
+    "author": ""
+  },
+  {
+    "title": "ChatGPTにゆっくり解説やらせたらヤバかった",
+    "link": "https://zenn.dev/moons/articles/313e72ae668729",
+    "description": "ChatGPT-4が公開されたので遊んでたところこれゆっくり解説できるんじゃね...?となったのでやってみました。\n\n 実際にできたもの\n実際AIに台本を書いてもらい、編集した動画がこちらです。\nチャンネル自体全然動かしてないこともあって本編のみ公開しても再生されないと思ったので本編と対になるショート動画も制作しました。\n\nshort\n\nhttps://www.youtube.com/watch?v=vHkfJAstxf4\n\nlong\n\nhttps://www.youtube.com/watch?v=I52hIVutzg8\nこのクオリティーの台本をAIがサクッと作ってくれるってすごい時代...",
+    "author": ""
+  },
+  {
+    "title": "ChatGPTとGPT-4にかな漢字変換させてみた",
+    "link": "https://zenn.dev/azookey/articles/6b405c7d63fc6d",
+    "description": "かな漢字変換は、日本語入力の最も重要な機能です。日本語自然言語処理で最も広く実用されているプロダクトの1つでありながら、その進化は翻訳AIや対話AIの進化と比べて鈍足です。\nそこで、ChatGPTとGPT-4にかな漢字変換をやらせてみてみました。\n性能の評価のため、比較的長い一文を用意しました。\n\nようしょうきからてにすすいえいやきゅうしょうりんじけんぽうなどさまざまなすぽーつをけいけんしながらそだちしょうがっこうじだいはろさんぜるすきんこうにたいざいしておりごるふやてにすをならっていた\n幼少期からテニス水泳野球少林寺拳法など様々なスポーツを経験しながら育ち小学校時代はロサンゼルス近郊に...",
+    "author": ""
+  },
+  {
+    "title": "ChatGPT/GPTでTypeScriptを逐次実行させる",
+    "link": "https://zenn.dev/erukiti/articles/gpt-run-typescript",
+    "description": "ChatGPTやその中身であるGPT-3.5などには、プログラムを逐次実行する能力があります。\nあなたはTypeScriptシミュレータです。step by stepでコードをシミュレートし、実行結果を出力してください。\n\n```ts\nconst hoge = \"hoge\";\n\nconst hello = (...args: string[]) =&gt; `hello, ${args.join(\" \")}`;\n\nhello(hoge, \"world\");\n```\nこれだけのシンプルなプロンプトで、解説を交えて逐次実行した結果を出力してくれます。もちろんTypeScriptだけではなくて...",
+    "author": ""
+  },
+  {
+    "title": "レビューコメントにメタ情報を持たせよう",
+    "link": "https://zenn.dev/yumemi_inc/articles/review-badge",
+    "description": "\n はじめに\nレビューコメントにメタ情報を持たせるためにラベルバッジをつけるということをやっています。\n以下の記事を参考に真似し始めました。\nプルリクエストへのコメントでは Text Blaze でラベルバッジをつけよう！\nやってみて、自分にあった表現に見直したのでその紹介です。（カラーコードも見直しています）\nText Blaze の利用手順は上の記事で詳しく紹介されているのでここではしません。\nレビューコメントにメタ情報を含めるのは、コメントを読む側はもちろん、コメントをする時点で、どういったリアクションを期待するのか、これは修正必須なのか、それともそうではないのか、期待する内容が曖...",
+    "author": ""
+  }
+]
